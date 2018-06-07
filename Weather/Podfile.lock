@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.6.0)
+  - DZNEmptyDataSet (1.8.1)
+  - SVProgressHUD (2.2.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - DZNEmptyDataSet
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DZNEmptyDataSet
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+
+PODFILE CHECKSUM: c8c5a630875013e6518291f433306ca1485208ae
+
+COCOAPODS: 1.5.3
