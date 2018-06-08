@@ -10,6 +10,4 @@ import Foundation
 
 protocol APIClient {
     func getRequest(path: String, parameters: [String: Any]?, completion:@escaping (Data?, Error?) -> Void)
-    func postRequest(path: String, parameters: [String: Any]?, completion:@escaping (Data?, Error?) -> Void)
-    func putRequest(path: String, parameters: [String: Any]?, completion:@escaping (Data?, Error?) -> Void)
 }
