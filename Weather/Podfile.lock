@@ -1,24 +1,32 @@
 PODS:
   - Alamofire (4.6.0)
   - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManager (5.0.7)
   - SVProgressHUD (2.2.2)
+  - Toast (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - DZNEmptyDataSet
+  - IQKeyboardManager
   - SVProgressHUD
+  - Toast
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - DZNEmptyDataSet
+    - IQKeyboardManager
     - SVProgressHUD
+    - Toast
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: c8c5a630875013e6518291f433306ca1485208ae
+PODFILE CHECKSUM: 09530c4c9360c1bb91eabf09fd67a4c3a15cc72e
 
 COCOAPODS: 1.5.3
