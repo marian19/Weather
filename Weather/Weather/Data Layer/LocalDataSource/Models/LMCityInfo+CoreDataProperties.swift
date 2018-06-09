@@ -16,10 +16,10 @@ extension LMCityInfo {
         return NSFetchRequest<LMCityInfo>(entityName: "LMCityInfo")
     }
 
-    @NSManaged public var date: String?
-    @NSManaged public var main: LMMain?
-    @NSManaged public var weather: LMWeather?
-
+    @NSManaged public var date: Int64
+    @NSManaged public var temp: Double
+    @NSManaged public var desc: String?
+    @NSManaged public var icon: String?
 }
 
 

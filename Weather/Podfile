@@ -9,7 +9,6 @@ target 'Weather' do
     pod 'Alamofire'
     pod 'SVProgressHUD'
     pod 'DZNEmptyDataSet'
-    pod 'IQKeyboardManager'
     pod 'Toast'
     target 'WeatherTests' do
         inherit! :search_paths

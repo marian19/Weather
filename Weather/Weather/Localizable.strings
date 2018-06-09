@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Weather
+
+  Created by Marian on 6/9/18.
+  Copyright © 2018 Marian. All rights reserved.
+*/
+
+"invalid_city_name" = "Please enter valid name";
+"cancel" = "Cancel";
+"check_connection"= "Check internet connection and try again";
+"city_added_to_favorit" = "City is Added To your list";
+"No_match" = "No cities match your search";
+"max_cities" ="you have reached the max number of cities in your list, if you want to add new city, Please delete city from your list";
+
+"somethingWrong" = "something went wrong please try again";

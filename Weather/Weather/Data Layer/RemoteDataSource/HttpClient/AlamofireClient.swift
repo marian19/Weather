@@ -1,19 +1,21 @@
 //
 //  AlamofireClient.swift
-//  Blends
+//  Weather
 //
-//  Created by Marian on 12/21/17.
-//  Copyright © 2017 Marian. All rights reserved.
+//  Created by Marian on 6/8/18.
+//  Copyright © 2018 Marian. All rights reserved.
 //
 
 import Foundation
 import Alamofire
 
-struct AlamofireClient: APIClient {
+struct AlamofireClient {
     // MARK: - Shared Instance
     static let sharedInstance =  AlamofireClient()
+    
     private init() {
     }
+    
     func getRequest(path: String, parameters: [String: Any]?, completion:@escaping (Data?, Error?) -> Void) {
         
         ActivityIndicator().show()
@@ -31,7 +33,7 @@ struct AlamofireClient: APIClient {
             }
             
             guard statusCode == 200, response.result.error == nil else {
-                ErrorHandling.handleErrorCode(responseData: response.data!)
+                completion(nil, response.result.error)
                 return
             }
             completion(response.data, nil)

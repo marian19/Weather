@@ -1,9 +1,9 @@
 //
 //  APIsUrlsConstant.swift
-//  Blends
+//  Weather
 //
-//  Created by Marian on 12/21/17.
-//  Copyright © 2017 Marian. All rights reserved.
+//  Created by Marian on 6/8/18.
+//  Copyright © 2018 Marian. All rights reserved.
 //
 
 import Foundation
